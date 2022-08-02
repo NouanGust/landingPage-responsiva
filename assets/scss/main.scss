@@ -114,7 +114,7 @@ section {
     font-size: 20px;
     display: inline-block;
     color: #fff;
-    background-color: #ff9fdb;
+    background-color: #8CD638;
     padding: 12px 16px;
     border-radius: 8px;
     text-decoration: none;
@@ -195,8 +195,8 @@ main {
         display: flex;
         align-items: center;
 
-        background-image: url(../images/header.jpg);
-        background-position: top right;
+        background-image: url(../images/mib-header.jpg);
+        background-position: center;
         background-size: cover;
 
         &:after {
@@ -222,7 +222,7 @@ main {
                 margin-bottom: 32px;
 
                 span {
-                    color: #ff9fdb;
+                    color: #68ED4A;
                 }
 
 
@@ -273,7 +273,7 @@ main {
                     .img-box {
                         display: block;
                         width: 100%;
-                        border-bottom: 5px solid #ff9fdb;
+                        border-bottom: 5px solid #68ED4A;
 
                         .img {
                             display: block;
@@ -315,6 +315,36 @@ main {
                 background-image: url(../images/project-img.jpg);
                 border-radius: 16px;
                 overflow: hidden;
+
+                &:nth-child(1) {
+                    background-image: url(../images/project-min1.jpg);
+                    background-size: cover;
+                }
+
+                &:nth-child(2) {
+                    background-image: url(../images/mib-project2.jpg);
+                    background-size: cover;
+                }
+
+                &:nth-child(3) {
+                    background-image: url(../images/mib-projects3.jpg);
+                    background-size: cover;
+                }
+
+                &:nth-child(4) {
+                    background-image: url(../images/mib-project4.jpg);
+                    background-size: cover;
+                }
+
+                &:nth-child(5) {
+                    background-image: url(../images/mib-project5.jpg);
+                    background-size: cover;
+                }
+
+                &:nth-child(6) {
+                    background-image: url(../images/mib-project6.jpg);
+                    background-size: cover;
+                }
 
                 
                 .content {
@@ -361,7 +391,7 @@ main {
     }
 
     .contact {
-        background-color: #9b75d7;
+        background-color: #38D64D;
 
         .container {
             padding-top: 64px;
