@@ -5,6 +5,60 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
+.box { 
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+
+
+    span {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-bottom: 1px solid #fff;
+        border-right: 1px solid #fff;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+
+        &:nth-child(1) {
+            animation-delay: -0.2s;
+        }
+
+        &:nth-child(2) {
+            animation-delay: -0.4s;
+        }
+    }
+}
+
+@keyframes animate {
+    
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+
 .container {
     padding-left: 128px;
     padding-right: 128px;
@@ -111,12 +165,12 @@ section {
     border: none;
     outline: none;
 
-    font-size: 20px;
+    font-size: 16px;
     display: inline-block;
     color: #fff;
     background-color: #8CD638;
-    padding: 12px 16px;
-    border-radius: 8px;
+    padding: 10px 14px;
+    border-radius: 6px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
