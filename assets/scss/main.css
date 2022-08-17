@@ -412,6 +412,17 @@ main .projects .center {
 }
 main .contact {
   background-color: #38D64D;
+  display: flex;
+}
+main .contact .socials {
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+main .contact .socials i {
+  color: black;
+  font-size: 30px;
 }
 main .contact .container {
   padding-top: 64px;
