@@ -478,9 +478,22 @@ main {
                     width: 40px;
                     height: 40px;
                     
-                    svg {
-                        fill: #fff;
+
+                    a {
+                        
+
+                        svg {
+                            fill: #fff;
+                            transition: all .500ms ease-in-out;
+    
+                            &:hover{
+                                fill: black;
+                            }
+                        }
+                        
                     }
+
+                    
                 }
             }
         }
